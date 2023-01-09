@@ -1,0 +1,38 @@
+.root {
+  padding-top: 60px;
+}
+
+.row {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 600px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.4), 0 28px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.buttonTab {
+  color: #fce4ec;
+  background-color: #d50000;
+  padding: 15px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  border: 0.5px solid #000;
+  transition: all 0.3s;
+}
+.buttonTab:hover {
+  color: #d50000;
+  background-color: #fce4ec;
+  border: 0.5px solid #d50000;
+}
+
+@media (max-width: 487px) {
+  .buttonTab {
+    font-size: 18px;
+    padding: 15px 5px;
+  }
+}/*# sourceMappingURL=CalculatorRow.module.css.map */

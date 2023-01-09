@@ -9,4 +9,10 @@ body {
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
+}
+
+.container {
+  max-width: 920px;
+  padding: 0 10px;
+  margin: 0 auto;
 }/*# sourceMappingURL=App.css.map */
